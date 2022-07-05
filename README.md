@@ -1,12 +1,4 @@
----
-title: "Welcome to my portfolio!"
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## About me
+# Welcome to my portfolio! 
 
 My name is Ondrej Hoberla and I am a postgraduate psychology student. I graduated from Psychology with Clinical Psychology (International Study) at the University of Lincoln and I am currently finishing a postgraduate programme in Psychological Research Methods with Data Science at the University of Sheffield. I am currently looking for employment opportunities in academia, especially as psychology technician, research assistant, and teaching assistant.
 
