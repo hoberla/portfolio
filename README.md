@@ -1,3 +1,7 @@
+---
+title: My project portfolio
+author: Ondrej Hoberla
+---
 
 # About
 I am a junior academic working at the Unviersity of Lincoln. I specialise in teaching quantitative research skills and I supervise masters' final projects. I am interested in applying advanced quantitative research techniques in social sciences and, implementing open and transparent research protocols in line with the Open Science movements, and I am enthusiastic about teaching quntatitative research methods to varied audiences and especially those who experience maths and statistics related anxiety.
