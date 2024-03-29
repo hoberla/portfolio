@@ -1,32 +1,28 @@
----
-title: Project portfolio
-author: Ondrej Hoberla
----
-
-# About
+# Project portfolio
+## About me
 
 I am a junior academic working at the Unviersity of Lincoln. I specialise in teaching quantitative research skills and I supervise masters' final projects. I am interested in applying advanced quantitative research techniques in social sciences and, implementing open and transparent research protocols in line with the Open Science movements, and I am enthusiastic about teaching quntatitative research methods to varied audiences and especially those who experience maths and statistics related anxiety. I have previously worked as an associate lecutrer, research assistant, and I completed a number of psychology-related internships.
 
-## Education
+### Education
 
 * MSc Psychological Research Methods with Data Science / Distinction (avg 78.4%) / University of Sheffield / 2021-2022
 * Study Abroad Exchange Programme / University of Padua / GPA 3.88 (avg 97%) / 2019-2020
 * BSc (Hons) Psychology with Clinical Psychology (International Study) / First Class Honours (avg 80.5%) / University of Lincoln / 2017-2021
 
-## Achievements & Grants
+### Achievements & Grants
 
 *  The School of Psychology Prize / University of Lincoln / 2021 / *Awarded to exceptionally well performing students*
 * The Michael Siegal Prize / University of Sheffield / 2022 / *Awarded to the recipient of the highest dissertation mark*
 * CoASSH Interdisciplinary Research Fund (£1,000) / University of Lincoln / 2024 / *Research grant co-awarded to researchcers pioneering interdisciplinary research in social sciences*
 
-## Brief employment history
+### Brief employment history
 
 *   Psychology Intern / Educational Care Centre - [Brno, Veslarska, CZ](https://strediskobrno.cz) / 02/2020
 *   Research Assistant / University of Reading & Masaryk University, CZ / 07-12/2020
 *   Associate Lecturer / [School of Psychology,](https://www.lincoln.ac.uk/psychology/) Unviersity of Lincoln / 02-05/2023
 *   Teaching Fellow / [Lincoln International Business School,](lincoln.ac.uk/lbs) University of Lincoln / 07/2023 - present
 
-## Key skills & certification
+### Key skills & certification
 
 *   Programming, Data Manipulation, & Statistics
     +   R
@@ -46,9 +42,9 @@ I am a junior academic working at the Unviersity of Lincoln. I specialise in tea
     +   SPSS - Research Skills I-IV, Advanced Multivariate Statistics (Unviersity of Lincoln, 2017-2021)
     +   Stata - Accessing and using'real-world' study data 2024 (UCL, CLOSER, & UK Data Service, 2024)
 
-# Projects
+## Projects
 
-## Postgraduate projects
+### Postgraduate projects
 
 ### [Covid-19 Vaccination Uptake in the Czech Republic](https://hoberla.github.io/portfolio/dataviz/)
 
@@ -76,5 +72,5 @@ Multiverse analyses have excellent exploratory power but are limited by human ch
 
 Coming soon!
 
-# Get in touch!
+## Get in touch!
 [Personal website](http://hoberla.eu) / [Linkedin profile](https://go.hoberla.eu/linkedin) / [GitHub Profile](https://go.hoberla.eu/github)
