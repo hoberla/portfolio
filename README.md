@@ -38,12 +38,6 @@ I have previously worked as an associate lecutrer, research assistant, and I com
     + SPSS - Research Skills I-IV, Advanced Multivariate Statistics (Unviersity of Lincoln, 2017-2021)
     + Stata - Accessing and using'real-world' study data 2024 (UCL, CLOSER, & UK Data Service, 2024)
 
-## Contact information
-[Personal website](http://hoberla.eu)
-[Linkedin profile](https://go.hoberla.eu/linkedin)
-[GitHub Profile](https://go.hoberla.eu/github)
-
-
 # Projects
 
 ## Postgraduate projects
@@ -70,3 +64,5 @@ Multiverse analyses have excellent exploratory power but are limited by human ch
 ## Other projects (CPD)
 ### [Captsone Project (Google Data Analytics Certification)](https://hoberla.github.io/portfolio/gdacase/)
 Coming soon! 
+# Get in touch!
+[Personal website](http://hoberla.eu) | [Linkedin profile](https://go.hoberla.eu/linkedin) | [GitHub Profile](https://go.hoberla.eu/github)
