@@ -286,5 +286,5 @@ saveRDS(outtable, file = here('data_output', 'outtable.RDs'))
 
 ############################################# Endnote ####################################
 # Visualisation code available at
-# https://github.com/yorkshireorange/PSY6009/tree/main/code_main/02multiversePlots.R
+# https://github.com/hoberla/portfolio/blob/main/diss/code_main/02multiversePlots.R
 ########################################################################################### 
