@@ -6,7 +6,7 @@
 
 **Data Management & Visualisastion**
 
-*Skills employed: programming (R), data science (data extraction, manipulation, and transformation), Data visualisation and analytics (data exploration, visualisation selection and customisation) Areas of research: public health, health statistics\*
+*Skills employed: programming (R), data science (data extraction, manipulation, and transformation), Data visualisation and analytics (data exploration, visualisation selection and customisation) Areas of research: public health, health statistics*
 
 The aim of this project was to visualise Covid-19 vaccine uptake in the Czech Republic. Completing this project required engaging with the Czech healthcare system, extracting data from public healthcare repositories, cleaning the data, and matching it with public statistical reports to provide as accurate region-based estimates as possible. The project site depicts the step-by-step process of creating the visualisation, which is accompanied by a critical appraisal and interpretation.
 
