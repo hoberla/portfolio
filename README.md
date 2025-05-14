@@ -4,14 +4,16 @@
 
 ### [Covid-19 Vaccination Uptake in the Czech Republic](https://hoberla.github.io/portfolio/dataviz/)
 
-**Data Management & Visualisastion**\ 
+**Data Management & Visualisastion**
+
 *Skills employed: programming (R), data science (data extraction, manipulation, and transformation), Data visualisation and analytics (data exploration, visualisation selection and customisation) Areas of research: public health, health statistics\*
 
 The aim of this project was to visualise Covid-19 vaccine uptake in the Czech Republic. Completing this project required engaging with the Czech healthcare system, extracting data from public healthcare repositories, cleaning the data, and matching it with public statistical reports to provide as accurate region-based estimates as possible. The project site depicts the step-by-step process of creating the visualisation, which is accompanied by a critical appraisal and interpretation.
 
 ### [Examining a Covariate Multiverse informed by Crowdsourced and Multiverse Analyses of the 'Many Analysts, One Dataset' Study](https://hoberla.github.io/portfolio/diss/)
 
-**Data Science & Advanced Statistics**\
+**Data Science & Advanced Statistics**
+
 *Skills employed: R programming, Python programming, Data science - data extraction, Advanced statistics - multilevel modelling, logistic regression, critical research evaluation\
 Areas of research: open Science, sports statistics, social psychology, cognitive psychology*
 
