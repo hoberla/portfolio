@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Ondrej Hoberla</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css"
+    />
+
+    <link rel="stylesheet" href="custom-styles.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid main-container">
+      <nav class="navigation-ribbon">
+        <ul>
+          <li><a href="https://hoberla.github.io/">Home</a></li>
+        </ul>
+      </nav>
+
+      <header>
+        <h1 class="title">Portfolio</h1>
+        <h2 class="subtitle">Ondrej Hoberla</h2>
+      </header>
+      <div class="intro-blurb">
+        <h3>Welcome to my portfolio!</h3>
+        <p>
+          I am a researcher, data analyst, and educator with a background in
+          psychology and research methods. This portfolio showcases some of my
+          work; it is very much a work in progress and I appreciate any feedback
+          and tips you might have for me – as well as collaboration,
+          development, and work opportunities.
+        </p>
+      </div>
+      <main class="tabs-container">
+        <ul class="nav nav-tabs">
+          <li class="active">
+            <a href="#data-vis" data-toggle="tab">Data Visualisation</a>
+          </li>
+          <li><a href="#data-sci" data-toggle="tab">Data Science</a></li>
+          <li><a href="#analytics" data-toggle="tab">Data Analytics</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div id="data-vis" class="tab-pane active">
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="#covax" data-toggle="tab">The Covax Project</a>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="covax" class="tab-pane active">
+                <h2>The CoVax Project</h2>
+                <h3>Covid-19 Vaccination Uptake in the Czech Republic</h3>
+
+                <p>
+                  An end-to-end data analysis project that sources, cleans, and
+                  visualises Covid-19 vaccination rates across the Czech
+                  Republic, presented in a custom-built, interactive web report.
+                </p>
+                <h3>Presentation</h3>
+                <div style="text-align: center">
+                  <img
+                    src="https://hoberla.github.io/covax/cz_covax_plot.svg"
+                    alt="Choropleth map of Covid-19 vaccination uptake in the Czech Republic"
+                    style="max-width: 80%"
+                  />
+                </div>
+                <h3>Overview</h3>
+                <p>
+                  The CoVax Project is a data-driven report that investigates
+                  the regional disparities in Covid-19 vaccination uptake across
+                  the Czech Republic. At the time of the project's inception,
+                  official government dashboards provided extensive data but
+                  lacked a clear, direct visualisation of the ratio of fully
+                  immunised residents to the total population per region. This
+                  project addresses that gap by answering a key question: Is
+                  vaccine uptake homogeneous across the country, or are there
+                  significant regional differences?
+                </p>
+                <p>
+                  The project follows the complete data analysis pipeline:
+                  sourcing raw data from the Czech Open Data Repository,
+                  performing extensive data cleaning and wrangling in R, and
+                  merging healthcare data with geospatial coordinates. The final
+                  output is a choropleth map that clearly visualises the
+                  findings, which is presented on a custom-built, interactive
+                  website. The analysis revealed a clear heterogeneity in
+                  vaccination rates, with a roughly 10% difference between the
+                  highest and lowest regions, correlating with socio-economic
+                  and political factors discussed in the report.
+                </p>
+
+                <h3>Key Features</h3>
+                <ul>
+                  <li>
+                    <strong>Automated Data Sourcing:</strong> Acquires the
+                    latest immunisation data directly from the Czech Ministry of
+                    Health's public CSV endpoint.
+                  </li>
+                  <li>
+                    <strong>Data Wrangling & Transformation:</strong> Cleans,
+                    aggregates, and merges data from multiple sources
+                    (immunisation records, population statistics, and geospatial
+                    data) using R and the tidyverse.
+                  </li>
+                  <li>
+                    <strong>Geospatial Visualisation:</strong> Generates a
+                    high-quality choropleth map using ggplot2 and sf to display
+                    vaccination ratios by region.
+                  </li>
+                  <li>
+                    <strong>Custom Interactive Front-End:</strong> Presents the
+                    entire report on a single-page website application with a
+                    clean UI, featuring a custom-built, multi-level tabbed
+                    navigation.
+                  </li>
+                  <li>
+                    <strong>Responsive Design:</strong> The web report is
+                    responsive and provides an optimal viewing experience on
+                    desktops, tablets, and mobile devices.
+                  </li>
+                </ul>
+
+                <h3>Skills Employed</h3>
+                <ul>
+                  <li>Data Sourcing and Cleaning</li>
+                  <li>Data Wrangling and Transformation</li>
+                  <li>R Programming</li>
+                  <li>Geospatial Data Matching and Visualisation</li>
+                  <li>Static and Interactive Data Visualisation</li>
+                  <li>Front-End Web Development</li>
+                </ul>
+
+                <h3>Project Area</h3>
+                <p>
+                  This project is linked to Data Science, Public Health, and
+                  Information Visualisation, and elements of Social Science the
+                  interpretation of the results.
+                </p>
+
+                <h3>Solution</h3>
+                <ul>
+                  <li>
+                    <strong>Languages:</strong> R, HTML5, CSS3, JavaScript
+                  </li>
+                  <li>
+                    <strong>Data Analysis & Visualisation (R/Studio)</strong>
+                    <ul>
+                      <li>
+                        <strong>Data Wrangling:</strong> tidyverse (dplyr,
+                        readr)
+                      </li>
+                      <li><strong>Geospatial:</strong> sf, RCzechia</li>
+                      <li><strong>Plotting:</strong> ggplot2</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Web Design</strong>
+                    <ul>
+                      <li><strong>Frameworks:</strong> Bootstrap 3</li>
+                      <li><strong>Libraries:</strong> jQuery, highlight.js</li>
+                      <li><strong>Deployment:</strong> GitHub</li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <h3>Learning Challenges</h3>
+                <p>
+                  The primary challenge was transitioning the project from a
+                  static, auto-generated R Markdown document into a fully custom
+                  and interactive web application. This involved manually
+                  separating the HTML, CSS, and JavaScript, refactoring legacy
+                  code, and rebuilding the interactive tab functionality from
+                  scratch using Bootstrap's native components. This was a
+                  valuable learning experience in front-end development.
+                </p>
+              </div>
+
+              <div class="text-center" style="margin-top: 30px">
+                <a
+                  href="https://hoberla.github.io/covax/"
+                  class="btn btn-default"
+                  target="_blank"
+                  >CoVax Project Page</a
+                >
+              </div>
+            </div>
+          </div>
+          <div id="data-sci" class="tab-pane">
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="#mva" data-toggle="tab">The Multiverse Project</a>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="mva" class="tab-pane active">
+                <h2>The Multiverse Project</h2>
+                <p>
+                  Coming soon!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="analytics" class="tab-pane">
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="#google" data-toggle="tab">Google Analytics</a>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="google" class="tab-pane active">
+                <h2>The Google Analytics Project</h2>
+                <p>
+                  Coming soon!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <ul>
+          <li>&copy; Ondrej Hoberla</li>
+        </ul>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/ondrej-hoberla/"
+            target="_blank"
+            aria-label="LinkedIn Profile"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/hoberla/"
+            target="_blank"
+            aria-label="GitHub Profile"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://bsky.app/profile/ohoberla.bsky.social"
+            target="_blank"
+            aria-label="Bluesky Profile"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 226">
+              <path
+                d="M55.491 15.172c29.35 22.035 60.917 66.712 72.509 90.686c11.592-23.974 43.159-68.651 72.509-90.686C221.686-.727 256-13.028 256 26.116c0 7.818-4.482 65.674-7.111 75.068c-9.138 32.654-42.436 40.983-72.057 35.942c51.775 8.812 64.946 38 36.501 67.187c-54.021 55.433-77.644-13.908-83.696-31.676c-1.11-3.257-1.63-4.78-1.637-3.485c-.008-1.296-.527.228-1.637 3.485c-6.052 17.768-29.675 87.11-83.696 31.676c-28.445-29.187-15.274-58.375 36.5-67.187c-29.62 5.041-62.918-3.288-72.056-35.942C4.482 91.79 0 33.934 0 26.116C0-13.028 34.314-.727 55.491 15.172"
+              />
+            </svg>
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+
+    <script src="custom-scripts.js"></script>
+  </body>
+</html>
