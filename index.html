@@ -191,7 +191,7 @@
                   href="https://hoberla.github.io/covax/"
                   class="btn btn-default"
                   target="_blank"
-                  >CoVax Project Page</a
+                  >The CoVax Project Page</a
                 >
               </div>
             </div>
@@ -206,9 +206,144 @@
             <div class="tab-content">
               <div id="mva" class="tab-pane active">
                 <h2>The Multiverse Project</h2>
+                <h3>Researcher Degrees of Freedom in Data Analysis</h3>
                 <p>
-                  Coming soon!
+                  An end-to-end computational statistics project that uses
+                  multiverse analysis to explore how analytical choices impact
+                  research outcomes, presented in a custom-built, interactive
+                  web report.
                 </p>
+                <h3>Presentation</h3>
+                <div style="text-align: center">
+                  <img
+                    src="https://hoberla.github.io/multiverse/img/model_perf_noncat_plot.svg"
+                    alt="Specification curve plot showing the stability of the main finding after correcting for overfitting"
+                    style="max-width: 80%"
+                  />
+                </div>
+                <h3>Overview</h3>
+                <p>
+                  The Multiverse Project investigates the "garden of forking
+                  paths" in research—the idea that the countless small,
+                  justifiable decisions a researcher makes can lead to
+                  dramatically different conclusions. It addresses this by
+                  re-analyzing the famous "Many Analysts, One Dataset" study,
+                  which explored the link between football players' skin tone
+                  and their likelihood of receiving red cards.
+                </p>
+                <p>
+                  Instead of choosing one "correct" analysis, this project uses
+                  a multiverse approach to run every possible combination of a
+                  set of 10 covariates, resulting in 1,023 unique statistical
+                  models. The analysis systematically detects and corrects for
+                  overfitting and examines the results for consistency. The
+                  project's key finding is a crucial one for modern science: a
+                  result can be **consistently statistically significant**
+                  across many analyses but still have very **low practical
+                  explanatory power**, urging a more cautious interpretation of
+                  research that focuses only on p-values.
+                </p>
+
+                <h3>Key Features</h3>
+                <ul>
+                  <li>
+                    <strong>Multiverse Construction:</strong> Programmatically
+                    generates and executes 1,023 unique multilevel logistic
+                    regression models to map the entire space of possible
+                    outcomes.
+                  </li>
+                  <li>
+                    <strong>Focus on Model Performance:</strong> Goes beyond
+                    traditional multiverse analyses by systematically evaluating
+                    overall model performance (marginal R²) to assess the
+                    practical meaning of the findings.
+                  </li>
+                  <li>
+                    <strong>Systematic Overfitting Detection:</strong>
+                    Identifies and removes covariates that artificially inflate
+                    model performance, leading to a more stable and reliable set
+                    of final results.
+                  </li>
+                  <li>
+                    <strong>Custom Interactive Front-End:</strong> Presents the
+                    entire analysis, methodology, and visualizations on a
+                    single-page website with a clean UI and custom-built,
+                    multi-level tabbed navigation.
+                  </li>
+                  <li>
+                    <strong>Accessible Explanations:</strong> Breaks down
+                    complex statistical concepts like multilevel modeling,
+                    optimizers, and error handling for a broad audience.
+                  </li>
+                </ul>
+
+                <h3>Skills Employed</h3>
+                <ul>
+                  <li>
+                    Advanced Statistical Modeling (Multilevel Logistic
+                    Regression)
+                  </li>
+                  <li>Computational Statistics & Reproducible Research</li>
+                  <li>R Programming (lme4, tidyverse)</li>
+                  <li>Data Wrangling and Transformation</li>
+                  <li>Static and Interactive Data Visualisation</li>
+                  <li>Front-End Web Development</li>
+                </ul>
+
+                <h3>Project Area</h3>
+                <p>
+                  This project is linked to Computational Psychology, Data
+                  Science, Statistics, and the Open Science movement.
+                </p>
+
+                <h3>Solution</h3>
+                <ul>
+                  <li>
+                    <strong>Languages:</strong> R, Python, HTML5, CSS3,
+                    JavaScript
+                  </li>
+                  <li>
+                    <strong>Data Analysis & Visualisation (R/Studio)</strong>
+                    <ul>
+                      <li><strong>Modeling:</strong> lme4, broom.mixed</li>
+                      <li>
+                        <strong>Data Wrangling:</strong> tidyverse (dplyr,
+                        tidyr)
+                      </li>
+                      <li><strong>Plotting:</strong> ggplot2</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Web Design</strong>
+                    <ul>
+                      <li><strong>Frameworks:</strong> Bootstrap 3</li>
+                      <li><strong>Libraries:</strong> jQuery, highlight.js</li>
+                      <li><strong>Deployment:</strong> GitHub Pages</li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <h3>Learning Challenges</h3>
+                <p>
+                  The primary challenge was managing the computational and
+                  conceptual complexity of the analysis. Running over a thousand
+                  complex regression models required careful optimization of the
+                  code and robust error handling to ensure the process could run
+                  to completion. Conceptually, interpreting the landscape of
+                  results—rather than a single outcome—demanded a shift in
+                  thinking from a simple "significant/not significant" mindset
+                  to a more nuanced assessment of the stability, consistency,
+                  and practical meaning of the findings.
+                </p>
+              </div>
+
+              <div class="text-center" style="margin-top: 30px">
+                <a
+                  href="https://hoberla.github.io/multiverse/"
+                  class="btn btn-default"
+                  target="_blank"
+                  >The Multiverse Project Page</a
+                >
               </div>
             </div>
           </div>
@@ -223,9 +358,7 @@
             <div class="tab-content">
               <div id="google" class="tab-pane active">
                 <h2>The Google Analytics Project</h2>
-                <p>
-                  Coming soon!
-                </p>
+                <p>Coming soon!</p>
               </div>
             </div>
           </div>
